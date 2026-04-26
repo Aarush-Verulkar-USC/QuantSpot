@@ -118,7 +118,7 @@ export function CoinDetail() {
                       borderRadius: "8px",
                       color: "#fff",
                     }}
-                    formatter={(value: number) => [formatCurrency(value), "Price"]}
+                    formatter={(value) => [formatCurrency(Number(value)), "Price"]}
                   />
                   <Area
                     type="monotone"
