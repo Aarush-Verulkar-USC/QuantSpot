@@ -4,3 +4,4 @@ strawberry-graphql[fastapi]
 motor
 httpx
 pydantic-settings
+dnspython
